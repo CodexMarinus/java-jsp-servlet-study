@@ -1,31 +1,28 @@
-package common;
+package dev.coma.study.common;
 
 import java.io.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.WebServlet;
 
-@WebServlet(urlPatterns = "/myServlet1")
-public class MyServlet1 extends HttpServlet {
+public class MyServlet2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-  public MyServlet1() {
-      super();
+       
+  public MyServlet2() {
+    super();
   }
 
-	@Override
+  @Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html");
+		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<title>MyServlet1</title>");
+		out.println("<title>MyServlet</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("<h1>Fighting Korea!!!</h1>");
+		out.println("<h1>파이팅 코리아!!!</h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}
-
 }
