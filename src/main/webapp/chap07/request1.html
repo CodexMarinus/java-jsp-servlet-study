@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Request</title>
+</head>
+
+<body>
+  <h1>Request Example 1</h1>
+
+  <form method="POST" action="request1.jsp">
+    성명:
+    <input name="name" /><br>
+    학번:
+    <input name="studentNum" /><br>
+    성별: 남자
+    <input type="radio" name="gender" value="male" checked />
+    여자
+    <input type="radio" name="gender" value="female" /><br>
+    전공:
+    <select name="major">
+      <option selected value="국문학과">국문학과</option>
+      <option selected value="영문학과">영문학과</option>
+      <option selected value="수학과">수학과</option>
+      <option selected value="정치학과">정치학과</option>
+      <option selected value="체육학과">체육학과</option>
+    </select><br>
+    <input type="submit" value="보내기">
+  </form>
+</body>
+
+</html>
