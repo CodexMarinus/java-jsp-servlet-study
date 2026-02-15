@@ -14,10 +14,10 @@
   
   <servlet>
 		<servlet-name>MyServlet2</servlet-name>
-		<servlet-class>common.MyServlet2</servlet-class>
+		<servlet-class>dev.coma.study.chap03.MyServlet2</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MyServlet2</servlet-name>
-		<url-pattern>/common/MyServlet2</url-pattern>
+		<url-pattern>/chap03/MyServlet2</url-pattern>
 	</servlet-mapping>
 </web-app>

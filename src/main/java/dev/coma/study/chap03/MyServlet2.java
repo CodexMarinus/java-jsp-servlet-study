@@ -1,4 +1,4 @@
-package dev.coma.study.common;
+package dev.coma.study.chap03;
 
 import java.io.*;
 import jakarta.servlet.*;
