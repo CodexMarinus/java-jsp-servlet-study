@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<jsp:useBean id="test" class="dev.coma.study.chap09.SimpleBean" scope="page" />
+<jsp:useBean id="test" class="service.rayne.study.chap09.SimpleBean" scope="page" />
 <jsp:setProperty name="test" property="message" value="쿠모린" />
 <html>
 

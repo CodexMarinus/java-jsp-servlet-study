@@ -14,7 +14,7 @@
   
   <servlet>
 		<servlet-name>MyServlet2</servlet-name>
-		<servlet-class>dev.coma.study.chap03.MyServlet2</servlet-class>
+		<servlet-class>service.rayne.study.chap03.MyServlet2</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MyServlet2</servlet-name>

@@ -1,4 +1,4 @@
-package dev.coma.study.chap11;
+package service.rayne.study.chap11;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

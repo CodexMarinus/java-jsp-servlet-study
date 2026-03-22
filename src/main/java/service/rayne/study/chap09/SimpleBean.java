@@ -1,4 +1,4 @@
-package dev.coma.study.chap09;
+package service.rayne.study.chap09;
 
 public class SimpleBean {
   private String message = "";

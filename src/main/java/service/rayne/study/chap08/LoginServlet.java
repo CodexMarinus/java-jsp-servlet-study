@@ -1,4 +1,4 @@
-package dev.coma.study.chap08;
+package service.rayne.study.chap08;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
